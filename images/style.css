@@ -1,0 +1,30 @@
+.logo{
+   max-width: 100px;
+   padding-left: 5px;
+
+}
+
+.materials-icones i{
+   width: 100px;
+   color: #cd0d2c;
+}
+
+.materials-icones i:hover{
+   cursor: pointer;
+   width: 120px;
+   color: blue;
+   transition: 0.5s;
+   
+   
+   }
+ 
+ 
+
+ .logo{
+   max-width: 100px;
+   padding: 10px;
+ }
+ .navbar-nav{
+   margin:auto;   
+ }
+

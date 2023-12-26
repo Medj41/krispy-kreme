@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="style.css">
+  <title>Donuts</title>
+</head>
+
+<body bg-light>
+  <nav class="navbar navbar-expand-md navbar-light ">
+    <div class="container-xxl ">
+      <a href="#intro" class="navbar-brand">
+        <span class="fw-bold text-danger">
+          <i class="bi bi-cup-straw"></i>
+          krispy kreme
+        </span>
+      </a>
+      <!-- toggek buttoon for mobile nav -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main-nav"
+        aria-controls="main-nav" aria-expanded="False" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse justify-content-end align-center" id="main-nav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#topics">about the Filling</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#Reviews">Reviews</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">get in touch</a>
+          </li>
+          <li class="nav-item d-md-none">
+            <a class="nav-link" href="#pricing">Pricing</a>
+          </li>
+          <li class="nav-item ms-2 d-none d-md-inline">
+            <a class="btn btn-danger" href="#pricing">Buy now</a>
+          </li>
+      </div>
+  </nav>
+  <!-- <section>
+    <div class="container my-5">
+      <h2>this is a containers</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, aspernatur!</p>
+    </div>
+    <div class="container-lg my-5">
+      <h2>this is a large container</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, quisquam!</p>
+    </div>
+  </section>
+  <section>
+    <div class="container-lg">
+      <h2>this is a basic container</h2>
+      <div class="row">
+        <div class="col">
+          <div class=" p-10 bg-info text-dark border border-warning">columns 1</div>
+        </div>
+        <div class="col">
+          <div class="  bg-warning text-dark border border-secondary">columns 2</div>
+        </div>
+        <div class="col">
+          <div class=" bg-dark text-light border border-danger">columns 3</div>
+        </div>
+        <div class="col">
+          <div class=" bg-warnong text-dark border border-info">columns 4</div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="container-lg">
+      <h2>Columns width</h2>
+      <div class="row">
+        <div class="col-6">
+          <div class=" p-10 bg-info text-dark border border-warning">columns 1</div>
+        </div>
+        <div class="col-2">
+          <div class="  bg-warning text-dark border border-secondary">columns 2</div>
+        </div>
+        <div class="col-2">
+          <div class=" bg-dark text-light border border-danger">columns 3</div>
+        </div>
+        <div class="col-2">
+          <div class=" bg-warnong text-dark border border-info">columns 4</div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="container-lg">
+      <h2>Columns width</h2>
+      <div class="row">
+        <div class=" col-md-3">
+          <div class=" p-10 bg-info text-dark border border-warning">columns 1</div>
+        </div>
+        <div class=" col-sm-3 col-lg-2">
+          <div class="  bg-warning text-dark border border-secondary">columns 2</div>
+        </div>
+        <div class=" col-sm-3 col-lg-2">
+          <div class="  bg-dark text-light border border-danger">columns 3</div>
+        </div>
+        <div class=" col-sm-3 col-lg-2">
+          <div class=" bg-warnong text-dark border border-info">columns 4</div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="container-lg my-5">
+    <h2>justify content</h2>
+    <div class="row justify-content-center">
+      <div class=" col-md-3">
+        <div class=" p-10 bg-info text-dark border border-warning">columns 1</div>
+      </div>
+      <div class=" col-md-3">
+        <div class="  bg-warning text-dark border border-secondary">columns 2</div>
+      </div>
+      <div class=" col-md-3">
+        <div class="  bg-dark text-light border border-danger">columns 3</div>
+      </div>
+    </div>
+  </section>
+  <section class="container-lg my-5">
+    <div class="row justify-content-center">
+      <div class=" col-md-6">
+        <div class=" p-10 bg-info text-dark border border-warning">columns 1</div>
+      </div>
+  </section> -->
+
+  <section>
+    <div class="container-lg my-5">
+      <div class="row justify-content-center align-item-center">
+        <div class="col-md-5 text-center text-md-start">
+          <div>
+            <div class="display-2">Donuts</div>
+            <div class="display-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, iste!</div>
+          </div>
+          <p class="lead my-4 text muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos,
+            eligendi.</p>
+          <a href="#pricing" class="btn btn-info btn-lg "> By now</a>
+        </div>
+        <div class="col-5 text-center d-none d-md-block">
+
+          <span class="tt" data-bs-placement="bottom" title="Delicious">
+            <img class="img-fluid" src="images/Krispy-Kreme-Doughnuts-Inc.-logo-640x228.jpg" alt="">
+
+          </span>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="container-lg mt-5 bg-light ">
+      <div class="text-center">
+        <h2>Our Pricing</h2>
+        <p class="lead text-musted">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorum, repudiandae.</p>
+      </div>
+      <div class="row my-5 align-items-center justify-content-center ">
+        <div class="col-8 col-lg-4 col-xl-3">
+          <div class="card border-0">
+            <div class="card-budy text-center py-4">
+              <h4 class="card-title">Starter Edition</h4>
+              <p class="lead card-subtitle">Donuts to share only</p>
+              <p class="display-5 my-4 text-success fw-bold">£12.99</p>
+              <p class="card-text mt-5 text-muted d-none d-lg-block">Lorem ipsum, dolor sit amet consectetur adipisicing
+                elit.</p>
+              <a href="#" class="btn btn-outline-danger btn-lg mt-3">buy now</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-9 col-lg-4 ">
+          <div class="card border-success border-2">
+            <div class="card-header text-center text-danger">Most Popular</div>
+            <div class="card-budy  text-center py-5">
+              <h4 class="card-title">Starter Edition</h4>
+              <p class="lead card-subtitle">Donuts to share only</p>
+              <p class="display-4 my-4 text-success fw-bold">£12.99</p>
+              <p class="card-text mx-5 text-muted d-none d-lg-block">Lorem ipsum, dolor sit amet consectetur adipisicing
+                elit.</p>
+              <a href="#" class="btn btn-outline-danger btn-lg mt-3">buy now</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-8 col-lg-4 col-xl-3">
+          <div class="card border-0">
+            <div class="card-budy text-center py-4">
+              <h4 class="card-title">Starter Edition</h4>
+              <p class="lead card-subtitle">Donuts to share only</p>
+              <p class="display-5 my-4 text-success fw-bold">£12.99</p>
+              <p class="card-text mt-5 text-muted d-none d-lg-block">Lorem ipsum, dolor sit amet consectetur adipisicing
+                elit.</p>
+              <a href="#" class="btn btn-outline-danger btn-lg mt-3">buy now</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section id="topics">
+    <div class="container-md">
+      <div class="text-center">
+        <h2>Inside the book...</h2>
+        <p class="lead text-muted"> a quick glance at the topic you'll learn</p>
+      </div>
+      <div class="row my-5 g-5 justify-content-around align-item-center">
+        <div class="col-6 col-lg-4">
+          <img class="img-fluid" src="images/pexels-clément-proust-14524816.jpg" alt=kpkm">
+        </div>
+        <div class="col-lg-6">
+          <dic class="accordion" id="chapters">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="heading-1">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#chapter-1"
+                  aria-expanded="true" aria-controls="chapter-1">
+                  chapter 1 - your first web page
+                </button>
+              </h2>
+              <div id="chapter-1" class="accordion-collapse collapse show" aria-labelledby="heading-1"
+                data-bs-parent="#chapters">
+                <div class="accordion-body">
+                  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. In ratione dolores itaque perspiciatis
+                    velit. Ullam ut unde quam repellat vero.</p>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="heading-2">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#chapter-2"
+                  aria-expanded="true" aria-controls="chapter-2">
+                  chapter 2 - your first web page
+                </button>
+              </h2>
+              <div id="chapter-2" class="accordion-collapse collapse " aria-labelledby="heading-2"
+                data-bs-parent="#chapters">
+                <div class="accordion-body">
+                  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. In ratione dolores itaque perspiciatis
+                    velit. Ullam ut unde quam repellat vero.</p>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="heading-3">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#chapter-3"
+                  aria-expanded="true" aria-controls="chapter-3">
+                  chapter 3 - your first web page
+                </button>
+              </h2>
+              <div id="chapter-3" class="accordion-collapse collapse" aria-labelledby="heading-3"
+                data-bs-parent="#chapters">
+                <div class="accordion-body">
+                  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. In ratione dolores itaque perspiciatis
+                    velit. Ullam ut unde quam repellat vero.</p>
+                </div>
+              </div>
+            </div>
+          </dic>
+        </div>
+      </div>
+    </div>
+    </div>
+    </div>
+  </section>
+
+  <section id="reviews">
+    <div class="container-lg">
+      <div class="text-center ">
+        <h2>reviews</h2>
+        <p class="lead text-muted">what students think</p>
+      </div>
+      <div class="row my-5 g-5 justify-content-around align-item-center ">
+        <div class="col-6 col-lg-8">
+          <div class="list-group">
+            <a href="" class="list-group-item list-group-item-action " aria-current="true">
+              <div class="d-flex w-100 justify-content-between">
+                <h5 class="mb-1">first review</h5>
+                <small>3 days ago</small>
+              </div>
+              <p class="mb-1">Some placeholder content in a paragraph.</p>
+              <small>And some small print.</small>
+            </a>
+            <a href="" class="list-group-item list-group-item-action">
+              <div class="d-flex w-100 justify-content-between">
+                <h5 class="mb-1">List group item heading</h5>
+                <small class="text-body-secondary">3 days ago</small>
+              </div>
+              <p class="mb-1">Some placeholder content in a paragraph.</p>
+              <small class="text-body-secondary">And some muted small print.</small>
+            </a>
+            <a href="" class="list-group-item list-group-item-action">
+              <div class="d-flex w-100 justify-content-between">
+                <h5 class="mb-1">List group item heading</h5>
+                <small class="text-body-secondary">3 days ago</small>
+              </div>
+              <p class="mb-1">Some placeholder content in a paragraph.</p>
+              <small class="text-body-secondary">And some muted small print.</small>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+
+    <div class="container-lg contact">
+      <div class="text-center text-light">
+        <h2>get in touch</h2>
+        <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, quas!</p>
+      </div>
+      <div class="row justify-content-center align-item-center text-danger fw-bold ">
+        <div class="col-6 my-5 ">
+          <form>
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label ">Email address</label>
+              <div class=" mb-4 input-group">
+                <span class="input-group-text"><i class="bi bi-envelope-fill"></i>
+                </span>
+                <input type="email" class="form-control bs-primary-border-subtle" id="Email1"
+                  aria-describedby="emailHelp" placeholder="email">
+
+              </div>
+
+              <div id="email" class="form-text text-success">We'll never share your email with anyone else.</div>
+            </div>
+
+            <label for="name" class="form-label">Name</label>
+            <div class="input-group">
+              <span class="input-group-text"><i class="bi bi-person-fill"></i></span>
+              <input type="text" class="form-control" id="name" placeholder="enter your name">
+
+            </div>
+
+            <label for="subject" class="form-label"> whats your question</label>
+            <select id="subject" class="form-select" placeholder="chose an option">
+              <option value="pricing">price</option>
+              <option value="555ad">dsd</option>
+              <option value="sdsas">sdaf</option>
+            </select>
+
+            <div class="form-floating mt-5">
+              <textarea name="" id="query" class="form-control " style="height: 140px;"></textarea>
+              <label for="query"> your query</label>
+            </div>
+          </form>
+          <div class="text-center m-4">
+            <button type="submit" class="btn bs-border-color-rgb border border-success text-emphasis text-danger fw-bold  ">Submit</button>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <section>
+    <div class="container">
+      <div class="text-center">
+        <h2>Stay in the loop</h2>
+        <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, ea?</p>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-md-8 text-center m-4">
+          <p class="text-muted my-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, aspernatur.</p>
+          <button class="btn bs-border-color-rgb border border-success text-danger fw-bold" data-bs-toggle="modal" data-bs-target="#reg-modal">
+            Register for updates
+          </button>
+        </div>
+      </div>
+    </div>    
+  </section>
+
+  <div class="modal fade" id="reg-modal" tabindex="-1" aria-labelledby="modal-title" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="modal-title"> Get the latest updates</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="close"></button>
+        </div>
+        <div class="modal-body">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus laborum illum distinctio
+            a earum. Incidunt dolore ad minus in quos accusamus obcaecati, blanditiis error, corporis et
+            velit voluptate molestias distinctio.
+          </p>
+          <label for="modal-email" class="form-lable"> your email address</label>
+          <input type="email" class="form-control" id="modal-email" placeholder="email@example.com">
+        </div>
+        <div class="modal-footer">
+          <button class="btn btn-danger"> submit</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+
+  <script>const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tt"]')
+    const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
+  </script>
+
+
+<!-- <script>const myModal = document.getElementById('myModal')
+  const myInput = document.getElementById('myInput')
+  
+  myModal.addEventListener('shown.bs.modal', () => {
+    myInput.focus()
+  })</script> -->
+
+</body>
+
+</html>
